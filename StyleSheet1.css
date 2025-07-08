@@ -1,0 +1,46 @@
+﻿body {
+  /*background-image:url(6193479.jpg);*/
+  /*background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:auto;*/
+  background-color: #070f2b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  overflow: unset;
+}
+.icon {
+  width: 65px;
+  height: 50px;
+  margin: 15px;
+  border-radius: 100%;
+}
+.hello {
+  font-size: 20px;
+  color: #f3b95f;
+  font-weight: 600;
+}
+.special {
+  display: flex;
+  margin: 15px;
+  justify-content: center;
+}
+.special2 {
+  display: flex;
+  margin: 15px;
+  justify-content: center;
+}
+h1 {
+  font-size: 30px;
+  color: azure;
+  font-weight: 700;
+  display: flex;
+}
+.ser {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
