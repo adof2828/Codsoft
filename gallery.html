@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <title>gallery</title>
+  <style>
+    ::-webkit-scrollbar {
+      width: 2px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: orangered;
+      border-radius: 2em;
+    }
+
+    body {
+      background-color: #191510;
+      padding: 1em;
+    }
+
+    .stick {
+      margin: 1.5em;
+    }
+
+    h3 {
+      color: azure;
+    }
+
+    .reveal {
+      opacity: 0;
+      transition: all 2s ease;
+    }
+
+    .reveal.active {
+      opacity: 1;
+    }
+  </style>
+  <link rel="stylesheet" href="loader.css">
+  <link rel="icon" type="image/jpg" href="gymicon.jpg"/>
+  <script src="loader.js"></script>
+  <script src="revealonscroll.js"></script>
+</head>
+
+<body>
+  <div style="display: grid; justify-content: center;">
+    <div id="content" class="lds-roller">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <section id="showcontent" style="display:none;">
+
+    <div class="sticky">
+      <nav class="navbar navbar-expand-lg bg-body-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: orangered;">
+            ＲＡＯ ＦＩＴＮＥＳＳ
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"
+            style="border-color: orangered;border-width: 2px;">
+            <span class="navbar-toggler-icon" style="color: azure;"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html" style="color: azure;">Home</a>
+              <a class="nav-link" href="features.html" style="color: azure;">Features</a>
+              <a class="nav-link" href="pricings.html" style="color: azure;">Pricings</a>
+              <a class="nav-link" href="location.html" style="color: azure;">Location</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div style="padding: 3em;">
+      <div class="row">
+        <div class="col-xl-12 reveal">
+          <div class="section_title text-center mb-73">
+            <h3>Explore Gallery</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Gallery -->
+    <div class="row stick">
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 reveal">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+          class="w-100 shadow-1-strong rounded mb-4 reveal" alt="Boat on Calm Water" />
+
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+          class="w-100 shadow-1-strong rounded mb-4 reveal" alt="Wintry Mountain Landscape" />
+      </div>
+
+      <div class="col-lg-4 mb-4 mb-lg-0 reveal">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+          class="w-100 shadow-1-strong rounded mb-4 reveal" alt="Mountains in the Clouds" />
+
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+          class="w-100 shadow-1-strong rounded mb-4 reveal" alt="Boat on Calm Water" />
+      </div>
+
+      <div class="col-lg-4 mb-4 mb-lg-0 reveal">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+          class="w-100 shadow-1-strong rounded mb-4 reveal" alt="Waves at Sea" />
+
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+          class="w-100 shadow-1-strong rounded mb-4 reveal" alt="Yosemite National Park" />
+      </div>
+    </div>
+    <!-- Gallery -->
+    <footer class="text-white text-center text-lg-start reveal">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row mt-4">
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4"> ＲＡＯ ＦＩＴＮＥＳＳ</h5>
+
+            <p>
+              Unlock Your Potential
+            </p>
+
+
+            <div class="mt-4">
+              <img src="instagram (1).png" alt="" style="margin: 0.5em; height: 50px;width: 50px;">
+              <img src="facebook.png" alt="" style="margin: 0.5em; height: 50px;width: 50px;">
+              <img src="whatsapp.png" alt="" style="margin: 0.5em; height: 50px;width: 50px;">
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4 pb-1">Address</h5>
+
+            <ul class="fa-ul">
+              <li class="mb-3">
+                <span class="ms-2"> Taramandal, Gorakhpur, Uttar Pradesh,273001</span>
+              </li>
+              <li class="mb-3">
+                <span class="ms-2">info@example.com</span>
+              </li>
+              <li class="mb-3">
+                <span class="ms-2">+ 01 234 567 88</span>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+            <table class="table text-center text-white bg-transparent">
+              <tbody class="font-weight-normal">
+                <tr>
+                  <td>Mon - Thu:</td>
+                  <td>8am - 9pm</td>
+                </tr>
+                <tr>
+                  <td>Fri - Sat:</td>
+                  <td>8am - 1am</td>
+                </tr>
+                <tr>
+                  <td>Sunday:</td>
+                  <td>9am - 10pm</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3">
+        © 2024 Copyright:
+        <a class="text-white">Rao Fitness</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    </div>
+    <!-- End of .container -->
+  </section>
+</body>
+
+</html>
